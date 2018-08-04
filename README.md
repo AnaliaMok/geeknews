@@ -21,4 +21,7 @@ An experimental website that uses Laravel as the main application and Headless W
 ```
 
 3. Then from the `geek-news` sub-folder, run `vagrant up`
-4. After installation, your should be able to visit the previously configured urls. geeknews.local should bring up the laravel application. geeknewsbackend.local will bring up the wordpress installation page.
+4. After installation, your should be able to visit the previously configured urls. `geeknews.local` should bring up the laravel application. `geeknewsbackend.local` will bring up the wordpress installation page.
+
+### Wordpress Install
+* The currently provisioned database for this wordpress project is: `geek_news_wp`. The credentials for which are just the default homestead credentials.
