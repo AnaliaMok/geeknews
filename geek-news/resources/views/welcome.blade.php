@@ -91,5 +91,13 @@
                 </div>
             </div>
         </div>
+        <script>
+        // Test API Call
+        fetch('http://geeknewsbackend.local/wp-json/wp/v2/posts')
+            .then(res => res.json())
+            .then(res => {
+                console.log(res);
+            });
+        </script>
     </body>
 </html>
