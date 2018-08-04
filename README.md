@@ -27,3 +27,4 @@ An experimental website that uses Laravel as the main application and Headless W
 ### Wordpress Install
 * The currently provisioned database for this wordpress project is: `geek_news_wp`. The credentials for which are just the default homestead credentials.
 * After installation, you will have to change your permalinks setting to something _other than_ "plain": otherwise, you will not be able to preview rest api endpoints in your browser.
+* Make sure to activate the `geeknews` theme and de-activate and or delete the default `twentyseventeen` theme. The geeknews theme is much more simplistic and designed specifically for using wordpress as a rest api data store. NOTE: Some code is from [Postlight's Headless WP Starter](https://github.com/postlight/headless-wp-starter)
