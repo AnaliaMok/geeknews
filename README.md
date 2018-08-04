@@ -1,10 +1,11 @@
 # Geek News
 
-An experimental website that uses Laravel as the main application and Headless Wordpress as the admin.
+An experimental website that uses Laravel as the main application and Headless Wordpress as the admin. 
 
 ## Project Structure
 * geek-news - The Laravel Application
 * geek-news-backend - The Wordpress Installation
+* The master branch for this repo will _always_ remain as a clean installation so that anyone can start this experiment from scratch.
 
 ## Pre-requisites before Installation
 * Make sure to have all dependencies necessary to use Homestead: https://laravel.com/docs/5.6/homestead
@@ -25,3 +26,4 @@ An experimental website that uses Laravel as the main application and Headless W
 
 ### Wordpress Install
 * The currently provisioned database for this wordpress project is: `geek_news_wp`. The credentials for which are just the default homestead credentials.
+* After installation, you will have to change your permalinks setting to something _other than_ "plain": otherwise, you will not be able to preview rest api endpoints in your browser.
