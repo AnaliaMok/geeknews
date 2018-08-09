@@ -14,7 +14,7 @@ class CreateCategoryTable extends Migration
     public function up()
     {
         Schema::create('category', function (Blueprint $table) {
-            $table->unsignedInteger('id');
+            $table->unsignedInteger('id')->unique();
             $table->unsignedInteger('wp_id');
             $table->string('name');
             $table->string('slug');

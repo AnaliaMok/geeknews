@@ -25,11 +25,7 @@ class CreatePostsTable extends Migration
 
             // Adds nullable created_at and updated_at
             $table->timestamps();
-            $table->timestamp('published_at');
-
-            // Future todo: Create foreign key references to these ids
-            $table->unsignedInteger('user_id')->nullable();
-            $table->unsignedInteger('category_id')->nullable();
+            $table->timestamp('published_at')->nullable();
         });
     }
 
